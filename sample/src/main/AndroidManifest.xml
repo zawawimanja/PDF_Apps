@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.android.my">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+                <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6005224982470148~5218313065"/>
+
+
+
+
+
+        <activity android:name="com.github.android.my.Main8Activity" />
+        <activity android:name=".Main8Activity_" />
+        <activity android:name="com.github.android.my.Main7Activity" />
+        <activity android:name=".Main7Activity_" />
+        <activity android:name="com.github.android.my.Main6Activity" />
+        <activity android:name=".Main6Activity_" />
+        <activity android:name="com.github.android.my.Main5Activity" />
+        <activity android:name=".Main5Activity_" />
+        <activity android:name="com.github.android.my.Main4Activity" />
+        <activity android:name=".Main4Activity_" />
+        <activity android:name=".Main3Activity_" />
+        <activity android:name="com.github.android.my.Main3Activity" />
+        <activity android:name=".PDFViewActivity_" />
+        <activity android:name="com.github.android.my.PDFViewActivity" />
+        <activity
+            android:name="com.github.android.my.MainActivity2"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
